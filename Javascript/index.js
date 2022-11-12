@@ -2,7 +2,7 @@ import moment from 'moment-timezone';
 
 // Capturing current time as ISO-8601 UTC timestamp
 const iso8601UtcTimestamp = new Date().toISOString();
-// or
+// or capture current time as ISO-8601 UTC timestamp using moment.js
 //const iso8601UtcTimestamp = moment().toISOString()
 
 // Printing timestamp
